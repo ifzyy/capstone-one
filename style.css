@@ -57,7 +57,6 @@ a {
     font-size: 30px;
     font-style: normal;
     gap: 50px;
-    font-weight: 700px;
     font-family: 'lato', sans-serif;
     padding: 10px 10px;
     transition: ease-in-out 1s;
@@ -497,7 +496,6 @@ a {
 
   .main-program-container {
     display: flex;
-    flex: row;
     margin-left: 20px;
     margin-right: 20px;
     justify-content: center;
