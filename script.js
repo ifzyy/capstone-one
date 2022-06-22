@@ -21,7 +21,6 @@ menuItem3.addEventListener('click', closeMenu);
 menuItem4.addEventListener('click', closeMenu);
 menuItem5.addEventListener('click', closeMenu);
 
-
 const featuring1 = {
   image: 'images/Cory_Henry.png',
   name: 'Cory henry and the funk apostles',
@@ -49,11 +48,10 @@ const featuring4 = {
 
 function coryHenry() {
   document.querySelector('.cimage').src = `${featuring1.image}`;
-  document.querySelector('.cname').innerHTML= featuring1.name;
+  document.querySelector('.cname').innerHTML = featuring1.name;
   document.querySelector('.cdescription').innerHTML = featuring1.description;
   document.querySelector('.coverview').innerHTML = featuring1.overview;
 }
-
 
 function richardBona() {
   document.querySelector('.rimage').src = `${featuring2.image}`;
