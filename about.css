@@ -1,0 +1,513 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'lato', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hamburger {
+  position: fixed;
+}
+
+.image-container {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    display: none;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .nav-items {
+    display: none;
+  }
+
+  .hamburger-container {
+    background-color: #d3d3d3;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: none;
+  }
+
+  .text2 {
+    display: none;
+  }
+
+  .extended {
+    display: block;
+  }
+
+  .close {
+    margin: 30px;
+    display: flex;
+    justify-content: end;
+  }
+
+  .hamburger-items {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-style: normal;
+    gap: 50px;
+    font-weight: 700px;
+    font-family: 'lato', sans-serif;
+    padding: 10px 10px;
+    transition: ease-in-out 1s;
+  }
+
+  .items {
+    color: #272a31;
+    list-style: none;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .about {
+    background-image: url(images/drummer-6869168_1920.jpg);
+    text-align: center;
+  }
+
+  .about-content {
+    background-color: #fcfcfcd8;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-header {
+    color: #ec5242;
+    font-size: 30px;
+    padding-top: 50px;
+  }
+
+  .about-header::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 6%;
+    padding-top: 1rem;
+    border-bottom: 2px solid #ec5242;
+  }
+
+  .about-text {
+    border: 2px solid grey;
+    color: #272a31;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  .about-text2 {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+
+  .email {
+    font-size: 20px;
+    text-decoration: none;
+    color: #272a31;
+    padding-bottom: 20px;
+    font-weight: bold;
+  }
+
+  .past-container {
+    background-color: white;
+  }
+
+  .past {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 20px;
+    color: #272a31;
+  }
+
+  .past::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 6%;
+    padding-top: 1rem;
+    border-bottom: 2px solid #ec5242;
+  }
+
+  .look {
+    text-align: center;
+    font-size: 20px;
+    color: #272a31;
+  }
+
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  .one {
+    background-image: url(images/drums-2089829_640.jpg);
+    height: 300px;
+    width: 300px;
+  }
+
+  .onn {
+    background-color: #ec5342af;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .one-date {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .one-p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .two {
+    background-image: url(images/music-6392615_640.jpg);
+    height: 300px;
+    width: 300px;
+  }
+
+  .twoo {
+    background-color: #ec5342af;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .two-date {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .two-p {
+    color: white;
+    font-size: 20px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #272a31;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 5px;
+    margin-left: 10px;
+  }
+
+  .footer-logo {
+    border: 3px solid #d3d3d3;
+    padding: 5px;
+    color: #d3d3d3;
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  .container2 {
+    margin-right: 10px;
+    width: 100%;
+  }
+
+  .word {
+    color: #d3d3d3;
+    font-size: 15px;
+  }
+
+  .word2 {
+    color: #d3d3d3;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 769px) {
+  .hamburger {
+    display: none;
+  }
+
+  .header {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 20px 200px;
+    gap: 20px;
+    background-color: #272a31;
+  }
+
+  .english {
+    text-decoration: none;
+    color: #d3d3d3;
+    font-size: 25px;
+    transition: ease-in-out 0.5s;
+  }
+
+  .english:hover {
+    color: #ec5242;
+  }
+
+  .logo {
+    padding-left: 50px;
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+  }
+
+  .nav-items {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-right: 150px;
+  }
+
+  .item {
+    color: #272a31;
+    font-size: 30px;
+    transition: ease-in-out 0.5s;
+  }
+
+  .item:hover {
+    color: #272a31;
+    border: 5px solid #ec5242;
+    padding: 10px;
+  }
+
+  .about {
+    background-image: url(images/drummer-6869168_1920.jpg);
+  }
+
+  .about-content {
+    background-color: #fcfcfcd8;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-header {
+    color: #ec5242;
+    font-size: 80px;
+    width: 800px;
+    text-align: center;
+  }
+
+  .about-header::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 6%;
+    padding-top: 1rem;
+    border-bottom: 2px solid #ec5242;
+  }
+
+  .about-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-text {
+    border: 2px solid gray;
+    color: #272a31;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    line-height: 40px;
+    font-size: 25px;
+    width: 1000px;
+    background-color: #fcfcfc;
+  }
+
+  .about-text2 {
+    font-size: 34px;
+    padding-bottom: 10px;
+  }
+
+  .email {
+    font-size: 30px;
+    text-decoration: none;
+    color: #272a31;
+    padding-bottom: 20px;
+    font-weight: bold;
+  }
+
+  .hamburger-container {
+    display: none;
+  }
+
+  .past-container {
+    background-color: white;
+    margin: 0;
+  }
+
+  .past {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+    color: #272a31;
+  }
+
+  .past::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 6%;
+    padding-top: 1rem;
+    border-bottom: 2px solid #ec5242;
+  }
+
+  .look {
+    text-align: center;
+    font-size: 24px;
+    color: #272a31;
+  }
+
+  .image-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 100px;
+  }
+
+  .one {
+    background-image: url(images/drums-2089829_640.jpg);
+    height: 400px;
+    width: 600px;
+  }
+
+  .onn {
+    background-color: #ec5342af;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .one-date {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .one-p {
+    color: white;
+    font-size: 20px;
+  }
+
+  .two {
+    background-image: url(images/music-6392615_640.jpg);
+    height: 400px;
+    width: 600px;
+  }
+
+  .twoo {
+    background-color: #ec5342af;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .two-date {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .two-p {
+    color: white;
+    font-size: 20px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: #272a31;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .footer-logo {
+    border: 5px solid #d3d3d3;
+    padding: 10px;
+    color: #d3d3d3;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .word {
+    color: #d3d3d3;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  .word2 {
+    color: #d3d3d3;
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .text2 {
+    width: 450px;
+    font-size: 20px;
+    color: #d3d3d3;
+  }
+
+  #menuabout {
+    color: #ec5242;
+  }
+}
