@@ -1,0 +1,820 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #d3d3d3;
+  font-family: 'lato', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hamburger {
+  position: fixed;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    display: none;
+  }
+
+  .hamburger {
+    padding-left: 20px;
+    padding-top: 30px;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .hamburger-container {
+    background-color: #d3d3d3;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: none;
+  }
+
+  .extended {
+    display: block;
+  }
+
+  .close {
+    margin: 30px;
+    display: flex;
+    justify-content: end;
+  }
+
+  .hamburger-items {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-style: normal;
+    gap: 50px;
+    font-weight: 700px;
+    font-family: 'lato', sans-serif;
+    padding: 10px 10px;
+    transition: ease-in-out 1s;
+  }
+
+  .items {
+    color: #272a31;
+    list-style: none;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .nav-items {
+    display: none;
+  }
+
+  .heading {
+    background-image: url(images/drummer-6869168_1920.jpg);
+  }
+
+  .header-content {
+    background-color: #fcfcfcd8;
+  }
+
+  .heading-content2 {
+    padding-top: 20px;
+  }
+
+  .hello {
+    color: #ec5242;
+    font-size: 40px;
+    padding-top: 150px;
+    font-family: 'Lato', sans-serif;
+    padding-left: 20px;
+    padding-bottom: 0;
+  }
+
+  .main-header {
+    color: #ec5242;
+    font-size: 50px;
+    padding-left: 20px;
+    font-family: 'Francois One', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .supporting-text {
+    color: #272a31;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    border: 3px solid white;
+  }
+
+  .date {
+    font-size: 40px;
+    color: #272a31;
+    padding-left: 20px;
+  }
+
+  .date-support {
+    color: #272a31;
+    font-size: 24px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+  }
+
+  .main-program {
+    background-image: url(images/Grey-background.jpg);
+  }
+
+  h2 {
+    text-align: center;
+    color: white;
+    border-bottom: 2px solid orangered;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .main-program-container {
+    display: grid;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: center;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 5px;
+    padding: 10px 5px;
+    background-color: #fcfcfc1f;
+  }
+
+  .box-main {
+    font-family: 'lato', sans-serif;
+    font-size: 20px;
+    color: #ec5242;
+    padding-top: 0;
+    text-align: center;
+  }
+
+  .box-text {
+    color: white;
+    font-family: 'lato', sans-serif;
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .featured-speaker-container {
+    background-color: #fcfcfc;
+  }
+
+  .featuring {
+    color: #272a31;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 40px;
+    margin-top: 0;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+
+  .featuring::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 6%;
+    padding-top: 1rem;
+    border-bottom: 2px solid #ec5242;
+  }
+
+  .feature-box-container {
+    display: grid;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .feature-box {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    gap: 10px;
+  }
+
+  .last {
+    margin-bottom: 30px;
+  }
+
+  .feature-box-text {
+    color: #272a31;
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  .feature-box-text1 {
+    color: red;
+    font-size: 15px;
+    border-bottom: 1px solid grey;
+    margin-right: 50px;
+    margin-bottom: 5px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .feature-box-text2 {
+    color: #272a31;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .image {
+    width: 100px;
+    height: 100px;
+  }
+
+  .partner {
+    background-color: #272a31;
+  }
+
+  .partner-header {
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 40px;
+  }
+
+  .partner-header::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 6%;
+    padding-top: 1rem;
+    border-bottom: 2px solid #ec5242;
+  }
+
+  .partner-items {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 20px;
+    list-style: none;
+    padding: 20px 10px;
+    opacity: 0.5;
+    margin-bottom: 0;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #fcfcfc;
+  }
+
+  .about-header {
+    color: #ec5242;
+    font-size: 40px;
+  }
+
+  .about-text {
+    border: 2px solid grey;
+    color: #272a31;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    font-size: 24px;
+  }
+
+  .about-text2 {
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+
+  .email {
+    font-size: 20px;
+    text-decoration: none;
+    color: #272a31;
+    padding-bottom: 20px;
+    font-weight: bold;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 20px;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 5px;
+    margin-left: 10px;
+  }
+
+  .footer-logo {
+    border: 3px solid #272a31;
+    padding: 5px;
+    color: #272a31;
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  .container2 {
+    margin-right: 10px;
+    width: 100%;
+  }
+
+  .word {
+    color: #272a31;
+    font-size: 15px;
+  }
+
+  .word2 {
+    color: #272a31;
+    font-size: 14px;
+  }
+
+  .text2 {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .hamburger {
+    display: none;
+  }
+
+  .header {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 20px 200px;
+    gap: 20px;
+    background-color: #272a31;
+  }
+
+  .english {
+    text-decoration: none;
+    color: #d3d3d3;
+    font-size: 25px;
+    transition: ease-in-out 0.5s;
+  }
+
+  .english:hover {
+    color: #ec5242;
+  }
+
+  .logo {
+    padding-left: 50px;
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+  }
+
+  .nav-items {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-right: 150px;
+  }
+
+  .item {
+    color: #272a31;
+    font-size: 30px;
+    transition: ease-in-out 0.5s;
+  }
+
+  .item:hover {
+    color: #272a31;
+    border: 5px solid #ec5242;
+    padding: 10px;
+  }
+
+  .heading {
+    background-image: url(images/drummer-6869168_1920.jpg);
+  }
+
+  .header-content {
+    background-color: #fcfcfcd8;
+  }
+
+  .hello {
+    color: #ec5242;
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    padding-left: 90px;
+    padding-top: 200px;
+    text-align: left;
+  }
+
+  .main-header {
+    color: #ec5242;
+    font-size: 100px;
+    padding-left: 90px;
+    width: 40%;
+    font-family: '', sans-serif;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+
+  .supporting-text {
+    color: #272a31;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 90px;
+    width: 40%;
+    max-width: 100%;
+    margin-right: 40px;
+    padding: 10px;
+    border: 3px solid white;
+  }
+
+  .date {
+    font-size: 50px;
+    font-weight: bold;
+    color: #272a31;
+    text-align: left;
+    padding-left: 90px;
+  }
+
+  .date-support {
+    color: #272a31;
+    font-size: 34px;
+    padding-left: 90px;
+    padding-bottom: 30px;
+    text-align: left;
+  }
+
+  .main-program {
+    background-image: url(images/Grey-background.jpg);
+  }
+
+  .image {
+    width: 150px;
+    height: 120px;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  h2::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 6%;
+    padding-top: 1rem;
+    border-bottom: 2px solid #ec5242;
+  }
+
+  .main-program-container {
+    display: flex;
+    flex: row;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 100px;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    padding: 5px;
+    background-color: #fcfcfc1f;
+    width: 300px;
+  }
+
+  .box:hover {
+    border: 5px solid #fcfcfc;
+  }
+
+  .box-main {
+    font-size: 30px;
+    color: #ec5242;
+    padding-top: 0;
+    text-align: center;
+    padding-bottom: 0;
+  }
+
+  .box-text {
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .featured-speaker-container {
+    background-color: #fcfcfc;
+    padding-bottom: 100px;
+    padding-top: 50px;
+  }
+
+  .feature-box-container {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-row-gap: 50px;
+    grid-column-gap: 100px;
+    justify-content: center;
+  }
+
+  .featuring {
+    text-align: center;
+    font-size: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+  .featuring::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 6%;
+    padding-top: 1rem;
+    border-bottom: 2px solid #ec5242;
+  }
+
+  .feature-box {
+    display: flex;
+    gap: 10px;
+  }
+
+  .feature-box-text {
+    color: #272a31;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .feature-box-text1 {
+    color: red;
+    font-size: 20px;
+    border-bottom: 1px solid grey;
+    margin-right: 50px;
+    margin-bottom: 5px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .feature-box-text2 {
+    color: #272a31;
+    font-size: 20px;
+    width: 300px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .partner {
+    background-color: #272a31;
+  }
+
+  .partner-header {
+    text-align: center;
+    color: white;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 50px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-top: 0;
+  }
+
+  .partner-header::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 6%;
+    padding-top: 1rem;
+    border-bottom: 2px solid #ec5242;
+  }
+
+  .partner-items {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 40px;
+    list-style: none;
+    padding: 10px 10px;
+    opacity: 0.5;
+    padding-bottom: 20px;
+  }
+
+  .about {
+    background-image: url(images/drummer-6869168_1920.jpg);
+  }
+
+  .about-content {
+    background-color: #fcfcfcd8;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-header {
+    color: #ec5242;
+    font-size: 80px;
+    width: 800px;
+    text-align: center;
+  }
+
+  .about-header::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 6%;
+    padding-top: 1rem;
+    border-bottom: 2px solid #ec5242;
+  }
+
+  .about-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-text {
+    border: 2px solid gray;
+    color: #272a31;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    line-height: 40px;
+    font-size: 25px;
+    max-width: 1000px;
+    background-color: #fcfcfc;
+  }
+
+  .about-text2 {
+    font-size: 34px;
+    padding-bottom: 10px;
+  }
+
+  .email {
+    font-size: 30px;
+    text-decoration: none;
+    color: #272a31;
+    padding-bottom: 20px;
+    font-weight: bold;
+  }
+
+  .hamburger-container {
+    display: none;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 20px;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .footer-logo {
+    border: 5px solid #272a31;
+    padding: 10px;
+    color: #272a31;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .word {
+    color: #272a31;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  .word2 {
+    color: #272a31;
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .text2 {
+    width: 450px;
+    font-size: 20px;
+  }
+
+  .past-container {
+    background-color: white;
+  }
+
+  .past {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+    color: #272a31;
+  }
+
+  .past::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 6%;
+    padding-top: 1rem;
+    border-bottom: 2px solid #ec5242;
+  }
+
+  .look {
+    text-align: center;
+    font-size: 24px;
+    color: #272a31;
+  }
+
+  .image-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 100px;
+  }
+
+  .one {
+    background-image: url(images/drums-2089829_640.jpg);
+    height: 400px;
+    width: 600px;
+  }
+
+  .onn {
+    background-color: #ec5342af;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .one-date {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .one-p {
+    color: white;
+    font-size: 20px;
+  }
+
+  .two {
+    background-image: url(images/music-6392615_640.jpg);
+    height: 400px;
+    width: 600px;
+  }
+
+  .twoo {
+    background-color: #ec5342af;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .two-date {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .two-p {
+    color: white;
+    font-size: 20px;
+  }
+}
