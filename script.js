@@ -27,7 +27,7 @@ const featuring = [{
   description: 'A musical band',
   overview: 'Cory Alexander Henry is an American singer-songwriter, pianist and producer.',
 },
- {
+{
   image: 'images/Richard_Bona_in_2009.jpg',
   name: 'Richard Bona',
   description: 'A bass player',
@@ -39,7 +39,7 @@ const featuring = [{
   description: 'A musical band',
   overview: 'Snarky Puppy is an American instrumental ensemble led by bassist  Michael League.',
 },
- {
+{
   image: 'images/stanleyrandolph730.jpg',
   name: 'Stanley Randolph',
   description: 'A drummer',
