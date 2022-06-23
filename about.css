@@ -321,7 +321,7 @@ a {
   .english {
     text-decoration: none;
     color: #d3d3d3;
-    font-size: 25px;
+    font-size: 20px;
     transition: ease-in-out 0.5s;
   }
 
@@ -567,7 +567,8 @@ a {
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    margin-top: 40px;
+    margin-top: 150px;
+    margin-bottom: 150px;
   }
 
   .tgmc-logo-head {
