@@ -148,7 +148,7 @@ featureBoxTextst.classList.add('feature-box-text', 'stname');
 featureBoxContent4.appendChild(featureBoxTextst);
 
 const featureBoxText1st = document.createElement('div');
-featureBoxText1st.classList.add('feature-box-text1', 'stdescription'),
+featureBoxText1st.classList.add('feature-box-text1', 'stdescription');
 featureBoxContent4.appendChild(featureBoxText1st);
 
 const featureBoxText2st = document.createElement('div');
