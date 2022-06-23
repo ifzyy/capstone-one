@@ -321,7 +321,7 @@ a {
   .english {
     text-decoration: none;
     color: #d3d3d3;
-    font-size: 20px;
+    font-size: 18px;
     transition: ease-in-out 0.5s;
   }
 
@@ -378,6 +378,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 200px;
   }
 
   .about-header {
@@ -407,6 +408,7 @@ a {
     margin-left: 20px;
     margin-right: 20px;
     padding: 10px;
+    margin-bottom: 100px;
     line-height: 40px;
     font-size: 25px;
     max-width: 1000px;
