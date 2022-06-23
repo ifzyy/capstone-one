@@ -13,7 +13,7 @@ a {
   position: fixed;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .logo {
     display: none;
   }
@@ -151,11 +151,11 @@ a {
   .box {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
     gap: 5px;
-    padding: 10px 5px;
+    padding: 10px 10px;
     background-color: #fcfcfc1f;
   }
 
@@ -316,6 +316,7 @@ a {
     align-items: center;
     gap: 10px;
     padding-bottom: 20px;
+    background-color: white;
   }
 
   .container {
@@ -354,7 +355,7 @@ a {
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1025px) {
   .hamburger {
     display: none;
   }
@@ -363,7 +364,7 @@ a {
     display: flex;
     justify-content: end;
     align-items: center;
-    padding: 20px 200px;
+    padding: 5px 200px;
     gap: 20px;
     background-color: #272a31;
   }
@@ -380,7 +381,12 @@ a {
   }
 
   .logo {
-    padding-left: 50px;
+    padding: 10px;
+    border: 5px solid #272a31;
+    font-size: 30px;
+    font-weight: bold;
+    color: #272a31;
+    margin-left: 50px;
   }
 
   header {
@@ -389,18 +395,19 @@ a {
     justify-content: space-between;
     align-items: center;
     background-color: white;
+    padding: 10px;
   }
 
   .nav-items {
     display: flex;
     list-style: none;
     gap: 30px;
-    margin-right: 150px;
+    margin-right: 200px;
   }
 
   .item {
     color: #272a31;
-    font-size: 30px;
+    font-size: 25px;
     transition: ease-in-out 0.5s;
   }
 
@@ -729,90 +736,4 @@ a {
     font-size: 20px;
   }
 
-  .past-container {
-    background-color: white;
-  }
-
-  .past {
-    text-align: center;
-    font-size: 40px;
-    padding-top: 20px;
-    color: #272a31;
-  }
-
-  .past::after {
-    content: "";
-    display: block;
-    margin: 0 auto;
-    width: 6%;
-    padding-top: 1rem;
-    border-bottom: 2px solid #ec5242;
-  }
-
-  .look {
-    text-align: center;
-    font-size: 24px;
-    color: #272a31;
-  }
-
-  .image-container {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    margin-top: 100px;
-  }
-
-  .one {
-    background-image: url(images/drums-2089829_640.jpg);
-    height: 400px;
-    width: 600px;
-  }
-
-  .onn {
-    background-color: #ec5342af;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .one-date {
-    color: white;
-    font-size: 40px;
-    text-align: center;
-  }
-
-  .one-p {
-    color: white;
-    font-size: 20px;
-  }
-
-  .two {
-    background-image: url(images/music-6392615_640.jpg);
-    height: 400px;
-    width: 600px;
-  }
-
-  .twoo {
-    background-color: #ec5342af;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .two-date {
-    color: white;
-    font-size: 40px;
-    text-align: center;
-  }
-
-  .two-p {
-    color: white;
-    font-size: 20px;
-  }
 }
