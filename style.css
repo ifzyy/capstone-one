@@ -372,7 +372,7 @@ a {
   .english {
     text-decoration: none;
     color: #d3d3d3;
-    font-size: 25px;
+    font-size: 20px;
     transition: ease-in-out 0.5s;
   }
 
@@ -395,7 +395,7 @@ a {
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    padding: 10px;
+    padding: 5px;
   }
 
   .nav-items {
