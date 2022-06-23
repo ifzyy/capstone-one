@@ -461,7 +461,6 @@ a {
     display: flex;
     gap: 20px;
     justify-content: center;
-
     margin: 100px 20px;
   }
 
@@ -585,7 +584,6 @@ a {
     padding-top: 1rem;
     border-bottom: 2px solid #ec5242;
   }
-
 
   .logo-text {
     color: #272a31;
