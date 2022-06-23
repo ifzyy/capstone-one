@@ -280,7 +280,6 @@ a {
     border-bottom: 2px solid #ec5242;
   }
 
-
   .logo-text {
     color: #272a31;
     margin-left: 20px;
@@ -303,7 +302,6 @@ a {
     border: 10px solid #272a31;
     padding: 20px;
   }
-
 }
 
 @media (min-width: 769px) {
@@ -612,6 +610,4 @@ a {
     border: 10px solid #272a31;
     padding: 20px;
   }
-
-
 }
