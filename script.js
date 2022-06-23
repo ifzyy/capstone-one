@@ -149,39 +149,38 @@ featureBoxContent4.appendChild(featureBoxTextst);
 
 const featureBoxText1st = document.createElement('div');
 featureBoxText1st.classList.add('feature-box-text1', 'stdescription'),
-  featureBoxContent4.appendChild(featureBoxText1st);
+featureBoxContent4.appendChild(featureBoxText1st);
 
 const featureBoxText2st = document.createElement('div');
 featureBoxText2st.classList.add('feature-box-text2', 'stoverview');
 featureBoxContent4.appendChild(featureBoxText2st);
 
 function coryHenry() {
-  document.querySelector('.cimage').src = `${featuring1.image}`
-  document.querySelector('.cname').innerHTML = featuring1.name
-  document.querySelector('.cdescription').innerHTML = featuring1.description
-  document.querySelector('.coverview').innerHTML = featuring1.overview
+  document.querySelector('.cimage').src = `${featuring1.image}`;
+  document.querySelector('.cname').innerHTML = featuring1.name;
+  document.querySelector('.cdescription').innerHTML = featuring1.description;
+  document.querySelector('.coverview').innerHTML = featuring1.overview;
 }
 
-
 function richardBona() {
-  document.querySelector('.rimage').src = `${featuring2.image}`
-  document.querySelector('.rname').innerHTML = featuring2.name
-  document.querySelector('.rdescription').innerHTML = featuring2.description
-  document.querySelector('.roverview').innerHTML = featuring2.overview
+  document.querySelector('.rimage').src = `${featuring2.image}`;
+  document.querySelector('.rname').innerHTML = featuring2.name;
+  document.querySelector('.rdescription').innerHTML = featuring2.description;
+  document.querySelector('.roverview').innerHTML = featuring2.overview;
 }
 
 function snarkyPuppy() {
-  document.querySelector('.simage').src = `${featuring3.image}`
-  document.querySelector('.sname').innerHTML = featuring3.name
-  document.querySelector('.sdescription').innerHTML = featuring3.description
-  document.querySelector('.soverview').innerHTML = featuring3.overview
+  document.querySelector('.simage').src = `${featuring3.image}`;
+  document.querySelector('.sname').innerHTML = featuring3.name;
+  document.querySelector('.sdescription').innerHTML = featuring3.description;
+  document.querySelector('.soverview').innerHTML = featuring3.overview;
 }
 
 function stanleyRandolph() {
-  document.querySelector('.stimage').src = `${featuring4.image}`
-  document.querySelector('.stname').innerHTML = featuring4.name
-  document.querySelector('.stdescription').innerHTML = featuring4.description
-  document.querySelector('.stoverview').innerHTML = featuring4.overview
+  document.querySelector('.stimage').src = `${featuring4.image}`;
+  document.querySelector('.stname').innerHTML = featuring4.name;
+  document.querySelector('.stdescription').innerHTML = featuring4.description;
+  document.querySelector('.stoverview').innerHTML = featuring4.overview;
 }
 
 coryHenry();
